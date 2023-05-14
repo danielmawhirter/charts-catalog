@@ -114,7 +114,7 @@ questions:
                 description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System"
                 schema:
                   type: string
-                  default: "ClusterIP"
+                  default: "NodePort"
                   enum:
                     - value: "NodePort"
                       description: "NodePort"
@@ -158,7 +158,7 @@ questions:
                         type: int
                         min: 9000
                         max: 65535
-                        default: 36009
+                        default: 9117
                         required: true
 ## TrueCharts Specific
   - variable: persistence
