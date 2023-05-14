@@ -5,9 +5,9 @@
 ##
 
 image:
-  repository: ghcr.io/truecharts/jackett
+  repository: linuxserver/jackett
   pullPolicy: IfNotPresent
-  tag: v0.17.1011
+  tag: v0.20.4145-ls105
 
 ##
 # Most other defaults are set in questions.yaml
